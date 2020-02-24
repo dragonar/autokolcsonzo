@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="autokolcsonzo001.jnlp">
+  <information>
+    <title>autokolcsonzo001</title>
+    <vendor>fuged</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="autokolcsonzo001.jar" size="3277" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="autokolcsonzo001" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="autokolcsonzo001.Autokolcsonzo001"  name="autokolcsonzo001" />
+  <update check="always"/>
+</jnlp>
